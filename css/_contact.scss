@@ -1,0 +1,58 @@
+/* -------------------------------------------
+ * contact
+ */
+ .contact{
+	 width: 100%;
+	 margin-bottom: 103px;
+	 padding:87px 0;
+	 overflow: hidden;
+	//  text-align: center;
+		background-color:#F1F1F1;
+
+	&__title{
+		margin-bottom: 33px;
+
+	}
+
+	&__block{
+		
+
+		&.left{
+			float: left;
+			width: 58%;
+			padding-right: 50px;
+		}
+		&.right{
+			float: right;
+			width: 39%;
+		}
+
+		.contact__txtBox{
+			.txtBox__txt{
+				margin-bottom: 45px;
+				font-size: 14px;
+				line-height: 21px;
+			}
+		}
+
+		.contact__telBox{
+			.telBox__txt{
+				font-size: 16px;
+			}
+			.telBox__num{
+				font-size: 48px;
+			}
+		}
+
+		.contact__btnBox{
+			margin-bottom: 38px;
+			font-size: 14px;
+		}
+
+	}
+
+
+	
+
+
+}

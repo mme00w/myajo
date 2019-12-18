@@ -1,0 +1,36 @@
+/* -------------------------------------------
+ * news
+ */
+ .news{
+	width: 100%;
+	padding:0 100px;
+	margin-bottom: 160px;
+	text-align: center;
+
+	&__subtitle{
+		margin-bottom: 95px;
+	}
+
+	&__listBox{
+		height: 275px;
+		margin-bottom: 113px;
+		overflow-y:scroll; 
+		text-align: left;
+
+		.listBox__txtBox{
+			display: inline-block;
+			padding: 9px 0px;
+			font-size: 13px;
+
+			.txtBox__genre,.txtBox__time,.txtBox__title{
+				display: inline-block;
+			}
+
+			.txtBox__genre,.txtBox__time{
+				margin-right: 70px;
+				
+			}
+		}
+
+	}
+}

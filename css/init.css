@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* -------------------------------------------
+ * initialize
+ */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a , abbr, address, cite, code, del, dfn, em, input, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, textarea , tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section, span, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family:YakuHanJPs, "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 游ゴシック, YuGothic, 游ゴシック体, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+  display:block;
+}
+
+ul li {
+  list-style: none;
+}
+
+a{
+  color: #000;
+}
+
+a:hover{
+  opacity:0.7;
+  transition: 0.3s;
+  transition-timing-function: ease;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix:before, .clearfix:after{content:""; display:table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+
+.font2{
+  font-family:"Hiragino Mincho ProN", "Noto Serif Japanese", serif;
+}
+
+.title{
+  font-size: 40px;
+  /* margin-bottom: 15px; */
+}
+
+.subtitle{
+  font-size: 14px;
+}
+
+.space{
+  width: 100%;
+  margin: 13px 0;
+  display: block;
+}
+
+.btn1{
+  display: inline-block;
+  max-width: 320px;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  border:2px solid #000;
+  background-color: transparent;
+  color: #000;
+}
+
+.btn1:hover{
+  transition: 0.3s;
+  transition-timing-function: ease;
+  background-color: #000;
+  color: #fff;
+  opacity: 1;
+}
+
+.btn2{
+  display: inline-block;
+  max-width: 360px;
+  width: 100%;
+  padding: 21px 0;
+  text-align: center;
+  border:2px solid #000;
+  background-color: #202121;;
+  color: #fff;
+}
+

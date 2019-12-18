@@ -1,0 +1,95 @@
+/* -------------------------------------------
+ * blog
+ */
+ .blog{
+	width: 100%;
+	padding-bottom: 10%;
+	text-align: center;
+
+	&__subtitle{
+		margin-bottom: 60px;
+	}
+
+	&__listBox{
+		width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+		.listBox__list{
+			display: inline-block;
+			width: 49%;
+			margin-bottom:42px;
+			padding: 33px 30px 28px;
+			border:1px solid #ccc;
+			text-align: left;
+
+			.list__category{
+				font-size: 14px;
+			}
+
+			.list__time{
+				margin-bottom: 7px;
+				font-size: 12px;
+				color: #ccc;
+			}
+
+			.list__txtBox{
+				display: inline-block;
+				.txtBox__title{
+					// margin-bottom: 20px;
+					font-weight: bold;
+					font-size: 16px;
+				}
+
+				.txtBox__desc{
+					margin-bottom: 20px;
+					font-size: 13px;
+					overflow: hidden;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+				}
+			}
+
+			.txtBox__snsBar{
+
+				text-align: center;
+				.snsBtn{
+					    display: inline-block;
+							padding: 5px 13px;
+							margin: 0 3px;
+							color: #fff;
+							border-radius: 6px;
+							border-bottom: 3px solid;
+							font-size: 11px;
+
+					.fab{
+						display: inline-block;
+						margin-right: 5px;
+					}
+
+					&.facebook{
+						background: #455a9d;
+    				border-color: #2E426F;
+					}
+
+					&.twitter{
+						background: #4dccf5;
+    				border-color: #487CAD;
+					}
+
+					&.pocket{
+						background: #ef3f56;
+    				border-color: #cb3649;
+					}
+
+					&.hatena{
+						background: #3290E1;
+    				border-color: #246EAB;
+					}
+				}
+			}
+		}
+	}
+}

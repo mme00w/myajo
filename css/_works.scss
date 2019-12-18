@@ -1,0 +1,63 @@
+/* -------------------------------------------
+ * works
+ */
+ 
+ .works{
+	width: 100%;
+	// margin-bottom: 180px;
+	padding:180px 0;
+	text-align: center;
+
+	&__subtitle{
+		margin-bottom:63px;
+	}
+
+	&__listBox{
+		width: 100%;
+		margin-bottom: 40px;
+
+		.listBox__list{
+			display: inline-block;
+			width: 32.7%;
+			vertical-align: top;
+			margin-bottom: 80px;
+		}
+
+		.list__imgBox,.list__txtBox{
+			width: 100%;
+		}
+
+		.list__imgBox{
+			height: 205px;
+			padding:20px;
+			background-color:#F4F6F5;
+
+			.imgBox__img{
+				object-fit: contain;
+			}
+		}
+
+		.list__txtBox{
+			text-align: left;
+
+			.txtBox__title{
+				margin:8px 0;
+			}
+			.txtBox__tag{
+
+				.tag{
+					display: inline-block;
+
+					padding:5px;
+					font-size: 12px;
+					background-color:#F4F6F5;
+				}
+			}
+
+			.txtBox__address{
+					font-size: 11px;
+					color: #999;
+				}
+		}
+	}
+}
